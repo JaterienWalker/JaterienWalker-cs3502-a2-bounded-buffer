@@ -1,9 +1,7 @@
 /*
  * buffer.h
  * CS 3502 - Assignment 2: Bounded Buffer
- * Author: Walker
- *
- * Shared structures for the producer/consumer bounded buffer.
+ * Author: Jaterien Walker
  */
 
 #ifndef BUFFER_H
