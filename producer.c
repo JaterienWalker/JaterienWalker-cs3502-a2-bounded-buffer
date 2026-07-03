@@ -1,13 +1,7 @@
 /*
  * producer.c
  * CS 3502 - Assignment 2: Bounded Buffer
- * Author: Walker
- *
- * Usage: ./producer <id> <num_items>
- *
- * Produces num_items into the shared circular buffer using the
- * standard three-semaphore protocol:
- *   wait(empty) -> wait(mutex) -> add item -> post(mutex) -> post(full)
+ * Author: Jaterien Walker
  */
 
 #include <stdio.h>
