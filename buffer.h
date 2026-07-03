@@ -10,7 +10,7 @@
 #define BUFFER_SIZE 10
 #define SHM_KEY 0x1234
 
-/* one item stored in the buffer */
+/* item stored */
 typedef struct {
     int value;
     int producer_id;
