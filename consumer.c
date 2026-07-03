@@ -1,13 +1,7 @@
 /*
  * consumer.c
  * CS 3502 - Assignment 2: Bounded Buffer
- * Author: Walker
- *
- * Usage: ./consumer <id> <num_items>
- *
- * Consumes num_items from the shared circular buffer using the
- * standard three-semaphore protocol:
- *   wait(full) -> wait(mutex) -> remove item -> post(mutex) -> post(empty)
+ * Author: Jaterien Walker
  */
 
 #include <stdio.h>
